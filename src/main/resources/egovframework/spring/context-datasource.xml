@@ -21,9 +21,9 @@
     <!-- Mysql (POM에서 commons-dbcp, mysql-connector-java 관련 라이브러리 설정 ) -->
     <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://127.0.0.1:3306/seobomin" />
-        <property name="username" value="sbm"/>
-        <property name="password" value="sbm"/>
+        <property name="url" value="jdbc:mysql://us-cdbr-east-05.cleardb.net:3306/heroku_e23f88ef5d7ae8e" />
+        <property name="username" value="b28e128d99a9a1"/>
+        <property name="password" value="84996b0c"/>
     </bean>
     
     
