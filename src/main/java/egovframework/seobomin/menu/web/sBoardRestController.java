@@ -6,7 +6,6 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
-import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -23,7 +22,7 @@ import egovframework.seobomin.menu.service.sMenuVO;
 
 /**
  * 
-  * @FileName : sBoardController.java
+  * @FileName : {@link sBoardRestController}.java
   * @Project : seoBoMin
   * @Date : 2021. 12. 8 
   * @작성자 : seobomin
